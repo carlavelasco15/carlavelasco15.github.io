@@ -317,7 +317,7 @@ body {
      display: flex;
      justify-content: center;
      align-items:center;
-     height: 100vh;
+     height: 108vh;
   }
 
   .margenes {
@@ -338,5 +338,6 @@ body {
 
   h2 {
       color: var(--clr-contrast);
-      font-size: 3em;
+      font-size: clamp(1.5em, 4vw, 3em);
+      padding-bottom: 10px;
   }
