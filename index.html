@@ -1,94 +1,307 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="https://kit.fontawesome.com/7b5fb2de65.js" crossorigin="anonymous" async></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Carla Velasco | Fullstack Developer</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Carla Velasco | Fullstack Developer</title>
 </head>
 
-<body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <div class="nav__logo">
-                <h1><a href="#" class="nav__title">carlavelasco</a></h1>
-            </div>
+<body id="body" class="body">
+  <header class="header" id="header">
+    <nav class="nav container">
+      <div class="nav__logo">
+        <h1><a href="#" class="nav__title nav--color">carlavelasco</a></h1>
+      </div>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list" id="nav-list">
+          <li class="nav__item">
+            <a href="#about" class="nav__link nav--color about">Sobre mí</a>
+          </li>
+          <li class="nav__item">
+            <a href="#experience" class="nav__link nav--color experience">Experiencia</a>
+          </li>
+          <li class="nav__item">
+            <a href="#technologies" class="nav__link nav--color technologies">Tecnologías</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link nav--color projexts">Proyectos</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link nav--color contact">Contacto</a>
+          </li>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list" id="nav-list">
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link about">Sobre mí</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#projects" class="nav__link projects">Proyectos</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#technologies" class="nav__link technologies">Tecnologías</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link contact">Contacto</a>
-                    </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <div class="nav__t-line nav__t-line--line1"></div>
+        <div class="nav__t-line nav__t-line--line2"></div>
+        <div class="nav__t-line nav__t-line--line3"></div>
+      </div>
+
+    </nav>
+  </header>
+
+  <button class="btn__scroll-top btn--fixed" id="scroll-top">
+    <a class="btn__link" href="#hero">
+      <ion-icon name="arrow-up" class="btn__arrow-up"></ion-icon>
+    </a>
+  </button>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero__background"></div>
+      <div class="hero__description">
+        <span class="hero__title--primary">¡Hola!</span>
+        <h1 class="hero__title">Soy Carla</h1>
+        <span class="hero__title--secondary">Frontend Developer</span>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section__wrapper">
+        <section class="cont-texto">
+          <h2 class="section__title">SOBRE MÍ</h2>
+          <div class="about__info">
+            <div class="about__profile"><img src="./img/me.jpeg" alt="Picture profile" class="about__img">
+            </div>
+            <div class="about__description">
+              <p>¡Hola, soy Carla! </p>
+              <p>Soy estudiante de segundo año del <span class="important">Ciclo Superior en Desarrollo de Aplicaciones Web</span> en el Institut
+                Tecnològic de Barcelona.</p>
+              <p>Desarrolladora Web Junior en Barcelona en búsqueda de nuevas oportunidades para desarrollarme
+                profesionalmente y ampliar mis conocimentos en el mundo tecnológico.</p>
+              <p>¿Quieres saber más sobre mí?</p>
+              <div class="about__button">
+                <a class="btn" href="./pdf/Carla Velasco CV.pdf" download="Carla Velasco CV" target="_blank"
+                  rel="noopener noreferrer">
+                  <span class="btn__text">Descargar CV</span>
+                  <span class="btn__icon">
+                    <ion-icon name="cloud-download"></ion-icon>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section__wrapper">
+        <section class="cont-texto">
+          <h2 class="section__title">EXPERIENCIA</h2>
+          <p class="section__description">Aquí encontraras tanto la experiencia académica como la experiencia professional.</p>
+          <div class="experience__all">
+            <div class="experience__wrapall">
+              <div class="experience__bar">
+                <ul class="experience__barlist">
+                  <li class="experience__baritem"><div class="experience__wrapper">
+                    <div class="experience__data">
+                      <h3 class="experience__title">abnorm media GmbH</h3>
+                      <p>Prácticas curriculares</p>
+                      <p>(julio 2021 - diciembre 2021)</p>
+                      <a class="btn" id="btn-info1">
+                        <span class="btn__text" id="btn-text1">Más información</span>
+                        <span class="btn__icon">
+                        <ion-icon name="eye" id="btn-icon1"></ion-icon>
+                        </span>
+                        </a>
+                    </div>
+                    <ul class="experience__list" id="experience-list1">
+                      <li class="experience__item">Administrar y gestionar el contenido de páginas web utilizando el <span class="important">CMS</span> propio de la empresa.</li>
+                      <li class="experience__item">Mejorar el <span class="important">posicionamiento SEO</span> de páginas web utilizando la herramienta <span class="important">Ahrefs</span>.</li>
+                      <li class="experience__item">Editar archivos <span class="important">HTML y CSS</span> según las necesidades del cliente.</li>
+                      <li class="experience__item">Diseñar y crear plantillas de página web usando CSS.</li>
+                      <li class="experience__item">Crear archivos en lenguaje <span class="important">PHP</span> para almacenar las traducciones de páginas web.</li>
+                      <li class="experience__item">Traducir del español al catalán y revisión ortográfica de páginas web.</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="experience__baritem">  <div class="experience__text">
+                  <div class="experience__wrapper">
+                    <div class="experience__data">
+                      <h3 class="experience__title">Institut Tecnológic de Barcelona</h3>
+                      <p>Ciclo Superior en Desarrollo de Aplicaciones Web</p>
+                      <p>(septiembre 2020 - actualidad)</p>
+                    </div>
+                    
+                  </div>
+                </li>
+                <li class="experience__baritem">  <div class="experience__text">
+                  <div class="experience__wrapper">
+                    <div class="experience__data">
+                      <h3 class="experience__title">Universitat Pompeu Fabra</h3>
+                      <p>Grado en Traducción e Intepretación</p>
+                      <p>(sin finalizar)</p>
+                      <a class="btn" id="btn-info2">
+                      <span class="btn__text" id="btn-text2">Más información</span>
+                      <span class="btn__icon">
+                      <ion-icon name="eye" id="btn-icon2"></ion-icon>
+                      </span>
+                      </a>
+                    </div>
+                    <ul class="experience__list" id="experience-list2">
+                      <li class="experience__item">Perfeccionar del catalán y el castellano.</li>
+                      <li class="experience__item">Mejorar el inglés a nivel oral y escrito.</li>
+                      <li class="experience__item">Aprender LSC (Lengua de Signos Catalana), que me da la competencia para comunicarme con personas sordas.</li>
+                    </ul>
+                  </div>
+                </li>
                 </ul>
+              </div>
             </div>
-
-            <div class="nav__toggle" id="nav-toggle">
-                <div class="nav__t-line nav__t-line--line1"></div>
-                <div class="nav__t-line nav__t-line--line2"></div>
-                <div class="nav__t-line nav__t-line--line3"></div>
-            </div>
-
-        </nav>
-    </header>
-
-    <main>
-        <section id="hero" class="hero">
-            <div class="hero__background"></div>
+          </div> 
         </section>
+          </div>
+    </section>
+    <section class="section" id="technologies">
+      <div class="section__wrapper">
+        <section class="cont-texto">
+          <h2 class="section__title">TECNOLOGIAS</h2>
+          <div class="tech__full">
+            <h3 class="tech__subtitle">FRONTEND</h3>
+            <ul class="tech__list">
+              <li class="tech__item">
+                <img class="tech__img" src="./img/html.png" alt="HTML">
+                <p class="tech__name">HTML</p>
+              </li>
+              <li class="tech__item">
+                <img class="tech__img" src="./img/css.png" alt="CSS">
+                <p class="tech__name">CSS</p>
+              </li>
+              <li class="tech__item">
+                <img class="tech__img" src="./img/javascript.png" alt="JavaScript">
+                <p class="tech__name">JavaScript</p>
+              </li>
+              <li class="tech__item">
+                <img class="tech__img" src="./img/sass.png" alt="SASS">
+                <p class="tech__name">SASS</p>
+              </li>
+              <li class="tech__item">
+                <img class="tech__img" src="./img/bootstrap.png" alt="SASS">
+                <p class="tech__name">Bootstrap</p>
+              </li>
+            </ul>
+            <h3 class="tech__subtitle">BACKEND</h3>
+            <ul class="tech__list">
+              <li class="tech__item">
+                <img class="tech__img" src="./img/mysql.png" alt="MySQL">
+                <p class="tech__name">MySQL</p>
+              </li>
+              <li class="tech__item">
+                <img class="tech__img" src="./img/mongodb.png" alt="mongoDB">
+                <p class="tech__name">mongoDB</p>
+              </li>
+              <li class="tech__item">
+                <img class="tech__img" src="./img/php.png" alt="mongoDB">
+                <p class="tech__name">PHP</p>
+              </li>
+              <li class="tech__item">
+                <img class="tech__img" src="./img/laravel.png" alt="mongoDB">
+                <p class="tech__name">Laravel</p>
+              </li>
+            </ul>
+            <h3 class="tech__subtitle">CONTROL DE VERSIONES Y OTROS</h3>
+            <ul class="tech__list">
+              <li class="tech__item">
+                <img class="tech__img" src="./img/git.png" alt="Git">
+                <p class="tech__name">Git</p>
+              </li>
+              <li class="tech__item">
+                <img class="tech__img apache" src="./img/apache.png" alt="Apache">
+                <p class="tech__name">Apache</p>
+              </li>
+              <li class="tech__item">
+                <img class="tech__img" src="./img/virtualbox.png" alt="VirtualBox">
+                <p class="tech__name">VirtualBox</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
 
-        <section class="contenedor  p1" id="about">
-            <div class="margenes">
-                <section class="cont-texto">
-                    <h2>SOBRE MÍ</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ut voluptates beatae tenetur sit libero quasi ex a quae nulla vitae error aliquam impedit et expedita assumenda autem fugit unde ea, eum explicabo modi. Earum sunt id nisi molestiae iusto, amet adipisci optio odit alias corporis vero numquam reprehenderit dicta!</p>
-                </section>
-            </div>
-        </section>
-        <section class="contenedor p2" id="projects">
-            <div class="margenes">
-                <section class="cont-texto">
-                    <h2>PROYECTOS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ut voluptates beatae tenetur sit libero quasi ex a quae nulla vitae error aliquam impedit et expedita assumenda autem fugit unde ea, eum explicabo modi. Earum sunt id nisi molestiae iusto, amet adipisci optio odit alias corporis vero numquam reprehenderit dicta!</p>
-                </section>
-            </div>
-        </section>
-        <section class="contenedor  p1" id="technologies">
-            <div class="margenes">
-                <section class="cont-texto">
-                    <h2>TECNOLOGIAS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ut voluptates beatae tenetur sit libero quasi ex a quae nulla vitae error aliquam impedit et expedita assumenda autem fugit unde ea, eum explicabo modi. Earum sunt id nisi molestiae iusto, amet adipisci optio odit alias corporis vero numquam reprehenderit dicta!</p>
-                </section>
-            </div>
-        </section>
-        <section class="contenedor p2" id="contact">
-            <div class="margenes">
-                <section class="cont-texto">
-                    <h2>CONTACTO</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ut voluptates beatae tenetur sit libero quasi ex a quae nulla vitae error aliquam impedit et expedita assumenda autem fugit unde ea, eum explicabo modi. Earum sunt id nisi molestiae iusto, amet adipisci optio odit alias corporis vero numquam reprehenderit dicta!</p>
-                </section>
-            </div>
-        </section>
-        
-    </main>
-    
 
-    <script src="./javascript/script.js"></script>
+    <section class="section contact" id="contact">
+      <div class="section__wrapper">
+        <section class="cont-texto">
+          <h2 class="section__title">CONTACTO</h2>
+          <p class="section__description">¿Quieres contactar conmigo? Rellena el formulario que tienes a continuación, te responderé lo antes posible.</p>
+          <div class="formulario">
+            <div class="wrapper">
+              <header>Contacto</header>
+              <form action="#">
+                <div class="dbl-field">
+                  <div class="field">
+                    <input type="text" name="name" placeholder="Nombre y apellidos">
+                    <ion-icon class="contact__icon" name="person"></ion-icon>
+                  </div>
+                  <div class="field">
+                    <input type="text" name="email" placeholder="Correo de contacto">
+                    <ion-icon class="contact__icon" name="business"></ion-icon>
+                  </div>
+                </div>
+                <div class="message">
+                  <textarea name="message" placeholder="Escribe tu mensaje"></textarea>
+                  <ion-icon  class="contact__icon" name="mail"></ion-icon>
+                </div>
+                <div class="button-area">
+                  <button type="submit">Enviar</button>
+                  <span></span>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </section>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section__wrapper">
+        <section class="cont-texto">
+          <h2 class="section__title">PROYECTOS</h2>
+          <div class="about__info">
+            <div class="about__profile"><img src="./img/logo.png" alt="Picture profile" class="about__img">
+            </div>
+            <div class="about__description">
+              <h3 class="important">Juanitems </h3>
+              <p>Proyecto de un portal web de una tienda online de productos electrónicos.</p>
+              <p>Web hecha con <span class="important">HTML</span>, <span class="important">CSS</span> y JavaScript (mobile first).</p>
+              <p>Uso de <span class="important">PHP</span> para el backend (utilización de clases y sesiones).</p>
+              <div class="about__button">
+                <a class="btn" href="http://elenamontiel7e4.alwaysdata.net/sp4/" target="_blank"
+                  rel="noopener noreferrer">
+                  <span class="btn__text">Página del proyecto</span>
+                  <span class="btn__icon">
+                    <ion-icon name="globe"></ion-icon>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <p>Web hecha por: Carla Velasco</p>
+    <p>Contacto: <a href="mailto:carlavelasco15@gmail.com">
+        carlavelasco15@gmail.com</a></p>
+  </footer>
+
+  <script src="./javascript/script.js"></script>
 </body>
 
 </html>
