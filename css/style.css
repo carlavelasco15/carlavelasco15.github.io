@@ -421,6 +421,8 @@ header.active .nav__t-line {
     padding-inline: 20px;
     gap: 2vw;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .tech__img {
