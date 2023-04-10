@@ -388,6 +388,12 @@ header.active .nav__t-line {
     margin: .8em;
 }
 
+.about__button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 
 /* TECHNOLOGIES */
 
@@ -869,6 +875,11 @@ form .button-area {
     margin-top: 25px;
     margin-bottom: 1.5em;
     text-decoration: none;
+}
+
+.btn--proyect {
+    margin-top: 10px;
+    margin-bottom: 0.1em; 
 }
 
 .btn:hover {
