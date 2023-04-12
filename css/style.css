@@ -295,8 +295,14 @@ header.active .nav__t-line {
     z-index: -5;
   }
 
+  .hero__content {
+    margin: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+  }
 
-  
   .hero__title {
       font-size: 60px;
       text-shadow: 1px 1px rgb(27, 27, 27);
@@ -319,7 +325,7 @@ header.active .nav__t-line {
  }
 
  .section__wrapper {
-    width: 85%;
+    width: 100%;
    margin-bottom: 20px;
    display: flex;
    justify-content: center;
@@ -363,6 +369,7 @@ header.active .nav__t-line {
     align-items: center;
     flex-wrap: wrap;
     gap: 35px;
+    margin-top: 1em;
 }
 
 .about__profile {
@@ -374,14 +381,15 @@ header.active .nav__t-line {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: flex-start;     
   }
 
 .about__img {
-    height: 103%;
+    width: 103%;
 }
 
 .about__description {
-    max-width: 40ch;
+    max-width: 80ch;
 }
 
 .about__description p {
@@ -438,6 +446,10 @@ header.active .nav__t-line {
     margin-bottom: 10px;
 }
 
+.tech__img--no-shadow {
+    filter: none;
+}
+
 .tech__item  .apache {
     display: flex;
     align-items: center;
@@ -461,6 +473,7 @@ header.active .nav__t-line {
     .about__description {
         text-align: center;
     }
+
 }
 
 /*=============== MEDIA QUERIES ===============*/
@@ -517,6 +530,10 @@ header.active .nav__t-line {
 
     .nav__toggle {
         display: block;
+    }
+
+    .about__button {
+        justify-content: center;
     }
     
 }
@@ -710,7 +727,7 @@ header.active .nav__t-line {
 .wrapper header {
     font-size: 22px;
     font-weight: 600;
-    padding: 20px 30px;
+    padding: 15px 25px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -919,6 +936,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5em;
+    margin-top: 4.5em;
 }
 
 footer a {
