@@ -1,12 +1,11 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
-import { motion } from "framer-motion";
 
 
 const Project = ({ title, img, description, technologies, webLink, githubLink }) => {
   return (
-    <motion.div layout className="about__info about__info--project">
+    <div className="about__info about__info--project">
       <div className="about__profile">
         <img src={img} alt="Picture profile" className="about__img" />
       </div>
@@ -31,7 +30,7 @@ const Project = ({ title, img, description, technologies, webLink, githubLink })
           </a>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

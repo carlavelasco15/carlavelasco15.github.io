@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Project from "./components/Project";
 import { projects } from "./data/projects";
 import Filter from "./components/Filter";
-import { motion } from "framer-motion";
+
 
 const ProjectsSection = () => {
   const [filtered, setFiltered] = useState([]);
@@ -24,11 +24,11 @@ const ProjectsSection = () => {
             activeTechnology={activeTechnology}
             setActiveTechnology={setActiveTechnology}
           />
-          <motion.div layout>
+          <div>
             {filtered.map((project, index) => (
               <Project key={index} {...project} />
               ))}
-          </motion.div>
+          </div>
         </section>
       </div>
     </section>
