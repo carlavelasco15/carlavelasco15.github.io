@@ -3,16 +3,18 @@ import TechItem from "./techItem/TechItem";
 import { backend } from "./data/backend";
 import { frontend } from "./data/frontend";
 import { others } from "./data/others";
+import { useTranslation } from "react-i18next";
 
 
 const Technologies = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <section className="section" id="technologies">
       <div className="section__wrapper">
         <section className="cont-texto">
-          <h2 className="section__title">TECNOLOGIAS</h2>
+          <h2 className="section__title">{t("technologies.title")}</h2>
           <div className="tech__full">
-            <h3 className="tech__subtitle">FRONTEND</h3>
+            <h3 className="tech__subtitle">{t("technologies.front")}</h3>
             <ul className="tech__list">
               {frontend.map((item, index) => (
                 <TechItem
@@ -23,7 +25,7 @@ const Technologies = () => {
                   />
                 ))}
             </ul>
-            <h3 className="tech__subtitle">BACKEND</h3>
+            <h3 className="tech__subtitle">{t("technologies.back")}</h3>
             <ul className="tech__list">
             {backend.map((item, index) => (
                 <TechItem
@@ -34,7 +36,7 @@ const Technologies = () => {
                   />
                 ))}
             </ul>
-            <h3 className="tech__subtitle">CONTROL DE VERSIONES Y OTROS</h3>
+            <h3 className="tech__subtitle">{t("technologies.others")}</h3>
             <ul className="tech__list">
               {others.map((item, index) => (
                 <TechItem

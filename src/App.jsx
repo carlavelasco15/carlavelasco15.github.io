@@ -9,18 +9,26 @@ import Technologies from './components/technologies/Technologies'
 import About from './components/about/About'
 import Projects from './components/projects/Projects'
 import ScrollTopButton from './components/scrollTop/ScrollTop'
+import { useTranslation } from 'react-i18next'
 
 function App() {
+  const [t, i18n] = useTranslation("global");
+  const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
+
+  const handleLanguageChange = (language) => {
+    i18n.changeLanguage(language);
+    setCurrentLanguage(language);
+  };
 
   return (
     <>
-      <Nav/>
+      <Nav currentLanguage={currentLanguage} handleLanguageChange={handleLanguageChange}/>
       <ScrollTopButton/>
       <main>
         <Hero/>
         <About/>
         <Technologies/>
-        <Projects/>
+        <Projects currentLanguage={currentLanguage}/>
       </main>
       <Footer/>
     </>

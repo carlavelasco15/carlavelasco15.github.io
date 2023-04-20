@@ -138,6 +138,13 @@ html {
     position: relative;
 }
 
+
+.nav__link--language {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+
 .header.active .nav__link,
 .header.active .nav__title {
     color: var(--clr-font);

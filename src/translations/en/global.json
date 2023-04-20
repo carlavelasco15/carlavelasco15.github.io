@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "about": "About me",
+    "technologies": "Technologies",
+    "projects": "Projects"
+  },
+  "hero": {
+    "hello": "Hello!",
+    "my-name": "I'm Carla"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "intro": "Hi, I'm Carla!",
+    "role": "I'm a Fullstack developer with a degree in Web Application Development.",
+    "description": "I'm a Fullstack developer who is passionate about bringing creative ideas to life and collaborating with designers, small businesses, and entrepreneurs to take their projects to the next level. I'm always learning and committed to delivering the best possible project, working both on the frontend and backend to ensure every detail is in its place. Contact me to collaborate on your next project!",
+    "btn-download-cv": "Download CV",
+    "cv-file": "./pdf/Carla_Velasco_CV.pdf"
+  },
+  "technologies": {
+    "title": "TECHNOLOGIES",
+    "front": "FRONTEND",
+    "back": "BACKEND",
+    "others": "VERSION CONTROL AND OTHERS"
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "technologies": "Technologies",
+    "all": "All",
+    "all-projects": [
+      {
+        "title": "Pla Comunitari Roquetes - Social prescription",
+        "img": "./img/prescripcio.png",
+        "description": "The system allows workers from CAP Roquetes (Barcelona) to register patients for activities organized by local entities, generate physical reservation tickets, and track patients to optimize their treatment and improve their quality of life. The application allows the responsible entities to manage their own activities and track attendance and patient performance.",
+        "technologies": "Symfony, MySQL, JavaScript, and Twig",
+        "webLink": "http://prescripcio.carlavelasco.com",
+        "githubLink": "https://github.com/carlavelasco15/symfony-preinscripcio-social-roquetes",
+        "tags": ["php", "symfony"]
+      },
+      {
+        "title": "Tasklist",
+        "img": "./img/tasklist.png",
+        "description": "TaskList is a simple application that allows you to add and delete tasks. The existing tasks are taken from a JSON file located within the same project. The purpose of this project is educational, aimed at teaching the basic concepts of React.",
+        "webLink": "https://tasklist.carlavelasco.com/",
+        "technologies": "React, JavaScript, and Tailwind",
+        "githubLink": "https://github.com/carlavelasco15/react-tasklist",
+        "tags": ["javascript", "react"]
+      },
+      {
+        "title": "CIFO Sabadell (Vallès) - Larabikes",
+        "img": "./img/Cifo_Sabadell.jpg",
+        "description": "Final project of the Laravel course (210h) at CIFO Sabadell (Vallès). Website for buying and selling motorcycles between individuals. The platform includes a frontend developed in Laravel's Blade, a user authorization and authentication system, and an API for managing motorcycles. It allows users to upload, manage, and delete motorcycles, as well as make offers to other published motorcycles.",
+        "technologies": "Laravel, MySQL, Blade, and Rest API",
+        "webLink": "http://larabikes.carlavelasco.com",
+        "githubLink": "https://github.com/carlavelasco15/laravel-larabikes",
+        "tags": ["php", "laravel", "api"]
+      },
+
+      {
+        "title": "Filter movies",
+        "img": "./img/filter-movie.png",
+        "description": "React Filter is a learning project aimed at teaching developers how to create filters with React. The project retrieves data from the TMDB API, which displays movies. The filters are created using React's useEffect and useState hooks, allowing users to filter movies by genre. Additionally, the project uses the Framer Motion library to create animations with the filters.",
+        "technologies": "React, JavaScript, and Rest API",
+        "webLink": "https://carlavelasco.com/react-filter-movies/",
+        "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
+        "tags": ["react", "javascript", "api"]
+      }
+    ]
+  },
+  "footer": {
+    "credits": "Website made by: Carla Velasco",
+    "contact": "Contact:"
+  }
+}

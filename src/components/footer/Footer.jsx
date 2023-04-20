@@ -1,11 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <footer>
-      <p>Web hecha por: Carla Velasco</p>
-      <p>Contacto: <a href="mailto:carlavelasco15@gmail.com">
-        carlavelasco15@gmail.com</a></p>
+      <p>{t("footer.credits")}</p>
+      <p>{t("footer.contact")}  <a href='mailto:carlavelasco15@gmail.com'> carlavelasco15@gmail.com</a></p>
     </footer>
   );
 };

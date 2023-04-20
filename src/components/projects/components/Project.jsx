@@ -1,9 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { FaGithub } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
 
 
 const Project = ({ title, img, description, technologies, webLink, githubLink }) => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="about__info about__info--project">
       <div className="about__profile">
@@ -13,7 +15,7 @@ const Project = ({ title, img, description, technologies, webLink, githubLink })
         <h3 className="important">{title}</h3>
         <p>{description}</p>
         <p>
-          Tecnologías: <span className="important">{technologies}</span>
+        {t("projects.technologies")}: <span className="important">{technologies}</span>
         </p>
         <div className="about__button">
           <a className="btn btn--proyect" href={webLink} target="_blank" rel="noopener noreferrer">

@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "about": "Sobre mi",
+    "technologies": "Tecnologies",
+    "projects": "Projectes"
+  },
+  "hero": {
+    "hello": "Hola!",
+    "my-name": "Sóc la Carla"
+  },
+  "about": {
+    "title": "SOBRE MI",
+    "intro": "Hola, sóc la Carla!",
+    "role": "Sóc una desenvolupadora Fullstack amb una llicenciatura en Desenvolupament d'Aplicacions Web.",
+    "description": "Sóc una desenvolupadora Fullstack apassionada per fer realitat idees creatives i col·laborar amb dissenyadors, petites empreses i emprenedors per portar els seus projectes al següent nivell. Estic sempre aprenent i compromesa a oferir el millor projecte possible, treballant tant en el frontend com en el backend per assegurar que cada detall estigui en el seu lloc. Contacteu amb mi per col·laborar en el vostre proper projecte!",
+    "btn-download-cv": "Descarregar CV",
+    "cv-file": "./pdf/Carla_Velasco_CV.pdf"
+  },
+  "technologies": {
+    "title": "TECNOLOGIES",
+    "front": "FRONTEND",
+    "back": "BACKEND",
+    "others": "CONTROL DE VERSIONS I ALTRES"
+  },
+  "projects": {
+    "title": "PROJECTES",
+    "technologies": "Tecnologies",
+    "all": "Tots",
+    "all-projects": [
+      {
+        "title": "Pla Comunitari Roquetes - Prescripció social",
+        "img": "./img/prescripcio.png",
+        "description": "El sistema permet als treballadors del CAP Roquetes (Barcelona) registrar pacients per a activitats organitzades per entitats locals, generar tiquets de reserva físics i fer un seguiment dels pacients per optimitzar el seu tractament i millorar la seva qualitat de vida. L'aplicació permet a les entitats responsables gestionar les seves pròpies activitats i fer un seguiment de l'assistència i el rendiment dels pacients.",
+        "technologies": "Symfony, MySQL, JavaScript i Twig",
+        "webLink": "http://prescripcio.carlavelasco.com",
+        "githubLink": "https://github.com/carlavelasco15/symfony-preinscripcio-social-roquetes",
+        "tags": ["php", "symfony"]
+      },
+      {
+        "title": "Llista de tasques",
+        "img": "./img/tasklist.png",
+        "description": "TaskList és una aplicació senzilla que permet afegir i eliminar tasques. Les tasques existents es prenen d'un fitxer JSON situat dins del mateix projecte. La finalitat d'aquest projecte és educativa, destinada a ensenyar els conceptes bàsics de React.",
+        "webLink": "https://tasklist.carlavelasco.com/",
+        "technologies": "React, JavaScript i Tailwind",
+        "githubLink": "https://github.com/carlavelasco15/react-tasklist",
+        "tags": ["javascript", "react"]
+      },
+      {
+        "title": "CIFO Sabadell (Vallès) - Larabikes",
+        "img": "./img/Cifo_Sabadell.jpg",
+        "description": "Projecte final del curs de Laravel (210h) al CIFO Sabadell (Vallès). Lloc web per comprar i vendre motocicletes entre particulars. La plataforma inclou un frontend desenvolupat en Laravel's Blade, un sistema d'autorització i autenticació d'usuaris i una API per gestionar les motocicletes. Permet als usuaris pujar, gestionar i eliminar motocicletes, així com fer ofertes a altres motocicletes publicades.",
+        "technologies": "Laravel, MySQL, Blade i Rest API",
+        "webLink": "http://larabikes.carlavelasco.com",
+        "githubLink": "https://github.com/carlavelasco15/laravel-larabikes",
+        "tags": ["php", "laravel", "api"]
+      },
+      {
+        "title": "Filtrar pel·lícules",
+        "img": "./img/filter-movie.png",
+        "description": "React Filter és un projecte d'aprenentatge que té com a objectiu ensenyar als desenvolupadors com crear filtres amb React. El projecte recupera dades de l'API de TMDB, que mostra pel·lícules. Els filtres es creen utilitzant els hooks useEffect i useState de React, permetent als usuaris filtrar pel·lícules per gènere. A més, el projecte utilitza la llibreria Framer Motion per crear animacions amb els filtres.",
+        "technologies": "React, JavaScript, i API Rest",
+        "webLink": "https://carlavelasco.com/react-filter-movies/",
+        "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
+        "tags": ["react", "javascript", "api"]
+      }
+    ]
+  },
+  "footer": {
+    "credits": "Lloc web fet per: Carla Velasco",
+    "contact": "Contacte:"
+  }
+}
