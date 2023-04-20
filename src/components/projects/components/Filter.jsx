@@ -5,7 +5,7 @@ function Filter({setActiveTechnology, activeTechnology, setFiltered, projects}) 
     const [t, i18n] = useTranslation("global");
 
     useEffect(() => {
-        if(activeTechnology == 'all') {
+        if(activeTechnology == '') {
             setFiltered(projects);
             return;
         }
@@ -15,7 +15,7 @@ function Filter({setActiveTechnology, activeTechnology, setFiltered, projects}) 
     
     return (
         <div className="filter-container">
-            <button className={activeTechnology === 'all' ? "active" : ""} onClick={() => setActiveTechnology('')}>{t("projects.all")}</button>
+            <button className={activeTechnology === '' ? "active" : ""} onClick={() => setActiveTechnology('')}>{t("projects.all")}</button>
             <button className={activeTechnology === 'symfony' ? "active" : ""} onClick={() => setActiveTechnology('symfony')}>Symfony</button>
             <button className={activeTechnology === 'laravel' ? "active" : ""} onClick={() => setActiveTechnology('laravel')}>Laravel</button>
             <button className={activeTechnology === 'php' ? "active" : ""} onClick={() => setActiveTechnology('php')}>PHP</button>

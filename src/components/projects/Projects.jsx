@@ -7,19 +7,13 @@ const ProjectsSection = ({currentLanguage}) => {
   const [t, i18n, ready] = useTranslation("global");
   const [filtered, setFiltered] = useState([]);
   const [projects, setProjects] = useState([]);
-  const [activeTechnology, setActiveTechnology] = useState("all");
-  /*   const projects = t("projects.all-projects", { returnObjects: true });
-  
-  console.log("prova") */
+  const [activeTechnology, setActiveTechnology] = useState("");
 
   useEffect(() => {
-    console.log("entra");
     if (!ready) return "loading translations...";
     setProjects(t("projects.all-projects", { returnObjects: true }));
-    console.log(projects);
     if (!projects) return;
     setFiltered(projects);
-    console.log("filtered " + filtered)
   }, [t, currentLanguage, ready]);
 
   useEffect(() => {

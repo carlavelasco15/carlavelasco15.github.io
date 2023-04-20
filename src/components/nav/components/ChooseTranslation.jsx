@@ -5,7 +5,7 @@ export const ChooseTranslation = ({currentLanguage, handleLanguageChange}) => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <ul className="nav__list">
+    <ul className="lang__list">
       <li className="nav__item">
         <a  className={`nav__link nav__link--language ${currentLanguage === "ca" ? "active" : ""}`} onClick={() => handleLanguageChange("ca")}>
           CA

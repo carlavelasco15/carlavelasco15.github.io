@@ -22,6 +22,10 @@
     --smaller-font-size: .75rem;
 }
 
+.bg-gray {
+    background-color: rgba(52, 46, 88, 0.027);
+}
+
 *, *::after, *::before {
     margin: 0;
     padding: 0;
@@ -120,7 +124,7 @@ html {
     text-transform: lowercase;
 }
 
-.nav__list {
+.nav__list, .lang__list {
     display: flex;
     justify-content: space-between;
 }
@@ -329,6 +333,7 @@ header.active .nav__t-line {
 .section {
     display: flex;
     justify-content: center;
+    margin-bottom: 1.5em;
  }
 
  .section__wrapper {
@@ -485,6 +490,9 @@ header.active .nav__t-line {
         text-align: center;
     }
 
+    .nav__list {
+        margin-top: 10%;
+    }
 }
 
 /*=============== MEDIA QUERIES ===============*/
@@ -523,6 +531,7 @@ header.active .nav__t-line {
         display: flex;
         flex-direction: column;
         align-items: center; 
+        justify-content: space-between;
     }
     
     /* NAV ITEM MOBILE MENU EFECT */
@@ -729,6 +738,20 @@ form .button-area {
         margin: 20px 0 0;
         text-align: center;
     }
+
+    .about__profile {
+        height: 225px;
+        width: 225px;   
+    }
+
+    .hero__title {
+        font-size: 50px;
+    }
+    
+    .hero__title--primary,
+    .hero__title--secondary {
+        font-size: 32px;
+  }
 }
 
 /* BUTTONS */
@@ -807,7 +830,9 @@ footer a {
 }
 
 .filter-container button {
-    margin-right: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: .7rem;
     min-width: 5rem;
     padding: 0.5rem 1rem;
     border: none;

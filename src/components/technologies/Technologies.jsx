@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 const Technologies = () => {
   const [t, i18n] = useTranslation("global");
   return (
-    <section className="section" id="technologies">
+    <section className="section bg-gray" id="technologies">
       <div className="section__wrapper">
         <section className="cont-texto">
           <h2 className="section__title">{t("technologies.title")}</h2>

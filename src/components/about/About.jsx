@@ -19,7 +19,7 @@ function About() {
               <p>{t("about.role")}</p>
               <p>{t("about.description")}</p>
               <div className="about__button">
-                <a className="btn" href= {t("about.cv-file")} download="Carla Velasco CV" target="_blank"
+                <a className="btn" href= {t("about.cv-file")} download="Carla Velasco" target="_blank"
                   rel="noopener noreferrer">
                   <span className="btn__text">{t("about.btn-download-cv")}</span>
                   <span className="btn__icon">
