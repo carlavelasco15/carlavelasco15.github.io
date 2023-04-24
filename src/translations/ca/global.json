@@ -85,6 +85,15 @@
         "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
         "tags": ["php", "symfony"]
 
+      },
+      {
+        "title": "CIFO Sabadell (Vallès) - Cifopop",
+        "img": "./img/Cifo_Sabadell.jpg",
+        "description":
+          "Projecte desenvolupat durant el curs de Laravel (210h) al centre CIFO Sabadell (Vallès) per consolidar el contingut del curs. Un lloc web per a la compra i venda de productes de segona mà entre particulars. Un usuari pot publicar un producte a un preu específic i altres usuaris poden fer ofertes sobre el producte. El propietari del producte pot acceptar o rebutjar les ofertes.",
+        "webLink": "https://github.com/carlavelasco15/laravel-cifopop",
+        "githubLink": "https://github.com/carlavelasco15/laravel-cifopop",
+        "tags": ["php", "laravel"]
       }
     ]
   },

@@ -83,6 +83,16 @@
         "webLink": "https://github.com/carlavelasco15/symfony-symfoplaces",
         "githubLink": "https://github.com/carlavelasco15/symfony-symfoplaces",
         "tags": ["php", "symfony"]
+      },
+      {
+        "title": "CIFO Sabadell (Vallès) - Cifopop",
+        "img": "./img/Cifo_Sabadell.jpg",
+        "description":
+          "Project developed during the Laravel course (210h) at CIFO Sabadell (Vallès) to solidify the course content. A website for buying and selling second-hand products between individuals. A user can post a product at a specific price and other users can make offers on the product. The owner of the product can accept or reject the offers.",
+        "technologies": "Laravel, MySQL, Blade y API Rest",
+        "webLink": "https://github.com/carlavelasco15/laravel-cifopop",
+        "githubLink": "https://github.com/carlavelasco15/laravel-cifopop",
+        "tags": ["php", "laravel"]
       }
     ]
   },
