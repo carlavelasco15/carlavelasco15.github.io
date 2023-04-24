@@ -12,9 +12,9 @@
     "title": "ÜBER MICH",
     "intro": "Hallo, ich bin Carla!",
     "role": "Ich bin eine Fullstack-Entwicklerin mit einem Abschluss in Webanwendungs-Entwicklung.",
-    "description": "Ich bin eine Fullstack-Entwicklerin, die sich dafür begeistert, kreative Ideen zum Leben zu erwecken und mit Designern, kleinen Unternehmen und Unternehmern zusammenzuarbeiten, um ihre Projekte auf die nächste Ebene zu bringen. Ich lerne ständig dazu und bin bestrebt, das bestmögliche Projekt zu liefern, indem ich sowohl am Frontend als auch am Backend arbeite, um sicherzustellen, dass jedes Detail an seinem Platz ist. Kontaktieren Sie mich, um bei Ihrem nächsten Projekt zusammenzuarbeiten!",
+    "description": "Ich bin eine selbstlernende Entwicklerin, hochmotiviert und leidenschaftlich für Web-Entwicklung, Technologie und das Internet. Ich arbeite gerne im Team, tausche Ideen und Wissen aus, um beruflich zu wachsen. Ich verfüge über vielseitige Fähigkeiten in Web-Programmierung, Datenbanken und Design, die ich durch meine autodidaktische Erfahrung erworben habe. Mein Enthusiasmus für Technologie und Innovation treibt mich dazu an, kontinuierlich zu lernen und mich zu verbessern. Ich kann mich leicht an Veränderungen und Herausforderungen in einer dynamischen und kollaborativen Arbeitsumgebung anpassen. Ich bin eine proaktive, engagierte und zuverlässige Fachfrau, die Kreativität und kritisches Denken in jedem Projekt schätzt. ",
     "btn-download-cv": "Lebenslauf herunterladen",
-    "cv-file": "./pdf/EN_Carla_Velasco.pdf"
+    "cv-file": "./pdf/DE_Carla_Velasco.pdf"
   },
   "technologies": {
     "title": "TECHNOLOGIEN",
@@ -62,6 +62,26 @@
         "webLink": "https://carlavelasco.com/react-filter-movies/",
         "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
         "tags": ["react", "javascript", "api"]
+      },
+      {
+        "title": "CIFO La Violeta - Symfofilms",
+        "img": "./img/cifo-violeta.jpg",
+        "description":
+          "Abschlussprojekt des Symfony-Kurses (210 Stunden) am CIFO La Violeta-Zentrum. Es besteht aus einer Webseite, die technische Informationen von mehreren Filmen in ihrer Karteikarte sammelt, wie Regisseur, Besetzung, Handlungszusammenfassung, Bewertung und anderen relevanten Details. Es ist ein Projekt, das die Fähigkeiten und Kenntnisse des Schülers im Web-Entwicklung unter Verwendung des Symfony-Frameworks demonstriert.",
+          "technologies": "Symfony, MySQL und Twig",
+        "webLink": "https://carlavelasco.com/react-filter-movies/",
+        "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
+        "tags": ["php", "symfony"]
+      },
+      {
+        "title": "CIFO La Violeta - Symfoplaces",
+        "img": "./img/cifo-violeta.jpg",
+        "description":
+          "Das Projekt wurde während des Symfony-Kurses (210h) im CIFO La Violeta Center entwickelt, um den Kursinhalt zu festigen. Es beinhaltete die Erstellung einer Webseite, auf der Benutzer ihre Lieblingsorte teilen konnten, zusammen mit begleitenden Fotografien und anderen relevanten Details. Zusätzlich wurde ein Kommentarbereich aktiviert, in dem andere Benutzer ihre Eindrücke über den geteilten Ort hinterlassen konnten. Dieses Projekt ermöglichte es den Studierenden, das im Kurs erworbene Wissen anzuwenden und ihre Webentwicklungsfähigkeiten unter Verwendung von Symfony zu verbessern.",
+          "technologies": "Symfony, MySQL und Twig",
+        "webLink": "https://carlavelasco.com/react-filter-movies/",
+        "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
+        "tags": ["php", "symfony"]
       }
     ]
   },

@@ -12,7 +12,7 @@
         "title": "SOBRE MÍ",
         "intro": "¡Hola, soy Carla!",
         "role": "Soy desarrolladora Fullstack titulada en CFGS Desarrollo de aplicaciones web.",
-        "description": "Soy estudiante Fullstack developer apasionada por dar vida a ideas creativas y colaborar con diseñadores, pequeñas empresas y emprendedores para llevar sus proyectos al siguiente nivel. Siempre estoy aprendiendo y comprometida a entregar el mejor proyecto posible, trabajando tanto en el frontend como en el backend para asegurarme de que cada detalle esté en su lugar. ¡Contáctame para colaborar en tu próximo proyecto!",
+        "description": "Soy una desarrolladora autodidacta, altamente motivada y apasionada por el desarrollo web, la tecnología e Internet. Me encanta trabajar en equipo, intercambiar ideas y conocimientos para crecer profesionalmente. Poseo habilidades versátiles en programación web, bases de datos y diseño, adquiridas a través de mi experiencia autodidacta. Mi entusiasmo por la tecnología y la innovación me impulsa a seguir aprendiendo y mejorando constantemente. Me adapto fácilmente a los cambios y desafíos en un ambiente laboral dinámico y colaborativo. Soy una profesional proactiva, comprometida y confiable que valora la creatividad y el pensamiento crítico en cada proyecto.",
         "btn-download-cv": "Descargar CV",
         "cv-file": "./pdf/ES_Carla_Velasco.pdf"
     },
@@ -67,6 +67,26 @@
               "webLink": "https://carlavelasco.com/react-filter-movies/",
               "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
               "tags": ["react", "javascript", "api"]
+            },
+            {
+              "title": "CIFO La Violeta - Symfofilms",
+              "img": "./img/cifo-violeta.jpg",
+              "description":
+                "Proyecto final del curso de Symfony (210h) en el centro CIFO La Violeta. Consiste en una página web que recopila información técnica de varias películas en su ficha, como director, reparto, sinopsis, puntuación y otros detalles relevantes. Es un proyecto que demuestra las habilidades y conocimientos adquiridos por el estudiante en el desarrollo web utilizando el framework Symfony. escribe esto otra vez",
+                "technologies": "Symfony, MySQL y Twig",
+              "webLink": "https://carlavelasco.com/react-filter-movies/",
+              "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
+              "tags": ["php", "symfony"]
+            },
+            {
+              "title": "CIFO La Violeta - Symfoplaces",
+              "img": "./img/cifo-violeta.jpg",
+              "description":
+                "Proyecto que se hizo durante el curso de Symfony (210h) en el centro CIFO La Violeta para asentar el c ontenido del curso. Consistió en la creación de una página web en la que los usuarios podían compartir sus lugares favoritos, acompañados de fotografías y otros detalles relevantes. Además, se habilitó un espacio de comentarios para que otros usuarios pudieran dejar sus impresiones sobre el lugar compartido.",
+                "technologies": "Symfony, MySQL y Twig",
+              "webLink": "https://carlavelasco.com/react-filter-movies/",
+              "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
+              "tags": ["php", "symfony"]
             }
           ]
     },

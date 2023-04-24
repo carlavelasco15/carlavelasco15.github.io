@@ -12,7 +12,7 @@
     "title": "ABOUT ME",
     "intro": "Hi, I'm Carla!",
     "role": "I'm a Fullstack developer with a degree in Web Application Development.",
-    "description": "I'm a Fullstack developer who is passionate about bringing creative ideas to life and collaborating with designers, small businesses, and entrepreneurs to take their projects to the next level. I'm always learning and committed to delivering the best possible project, working both on the frontend and backend to ensure every detail is in its place. Contact me to collaborate on your next project!",
+    "description": "I am a self-taught developer, highly motivated and passionate about web development, technology, and the internet. I love working in a team, exchanging ideas and knowledge to grow professionally. I possess versatile skills in web programming, databases, and design, acquired through my autodidactic experience. My enthusiasm for technology and innovation drives me to continue learning and improving constantly. I can easily adapt to changes and challenges in a dynamic and collaborative work environment. I am a proactive, committed, and reliable professional who values creativity and critical thinking in every project.",
     "btn-download-cv": "Download CV",
     "cv-file": "./pdf/EN_Carla_Velasco.pdf"
   },
@@ -63,6 +63,26 @@
         "webLink": "https://carlavelasco.com/react-filter-movies/",
         "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
         "tags": ["react", "javascript", "api"]
+      },
+      {
+        "title": "CIFO La Violeta - Symfofilms",
+        "img": "./img/cifo-violeta.jpg",
+        "description":
+          "Final project of the Symfony course (210h) at CIFO La Violeta center. It consists of a web page that collects technical information from several movies in its file, such as director, cast, synopsis, score and other relevant details. It is a project that demonstrates the skills and knowledge acquired by the student in web development using the Symfony framework.",
+        "technologies": "Symfony, MySQL and Twig",
+        "webLink": "https://github.com/carlavelasco15/symfony-symfofilms",
+        "githubLink": "https://github.com/carlavelasco15/symfony-symfofilms",
+        "tags": ["php", "symfony"]
+      },
+      {
+        "title": "CIFO La Violeta - Symfoplaces",
+        "img": "./img/cifo-violeta.jpg",
+        "description":
+          "The project was developed during the Symfony course (210h) at CIFO La Violeta center, aimed at solidifying the course content. It involved creating a webpage where users could share their favorite places, along with accompanying photographs and other relevant details. In addition, a commenting space was enabled for other users to leave their impressions about the shared place. This project allowed students to apply the knowledge acquired during the course and improve their web development skills using Symfony.",
+        "technologies": "Symfony, MySQL and Twig",
+        "webLink": "https://github.com/carlavelasco15/symfony-symfoplaces",
+        "githubLink": "https://github.com/carlavelasco15/symfony-symfoplaces",
+        "tags": ["php", "symfony"]
       }
     ]
   },
