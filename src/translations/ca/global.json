@@ -47,7 +47,7 @@
       },
       {
         "title": "CIFO Sabadell (Vallès) - Larabikes",
-        "img": "./img/Cifo_Sabadell.jpg",
+        "img": "./img/cifo-sabadell.jpg",
         "description": "Projecte final del curs de Laravel (210h) al CIFO Sabadell (Vallès). Lloc web per comprar i vendre motocicletes entre particulars. La plataforma inclou un frontend desenvolupat en Laravel's Blade, un sistema d'autorització i autenticació d'usuaris i una API per gestionar les motocicletes. Permet als usuaris pujar, gestionar i eliminar motocicletes, així com fer ofertes a altres motocicletes publicades.",
         "technologies": "Laravel, MySQL, Blade i Rest API",
         "webLink": "http://larabikes.carlavelasco.com",
@@ -70,8 +70,8 @@
         "description":
           "Projecte final del curs de Symfony (210h) al centre CIFO La Violeta. Consisteix en una pàgina web que recopila informació tècnica de diverses pel·lícules en la seva fitxa, com ara el director, el repartiment, la sinopsi, la puntuació i altres detalls rellevants. És un projecte que demostra les habilitats i coneixements adquirits per l'estudiant en el desenvolupament web utilitzant el framework Symfony.",
         "technologies": "Symfony, MySQL i Twig",
-        "webLink": "https://carlavelasco.com/react-filter-movies/",
-        "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
+        "webLink": "https://carlavelasco.cat/symfofilms/public/",
+        "githubLink": "https://github.com/carlavelasco15/symfony-symfofilms",
         "tags": ["php", "symfony"]
 
       },
@@ -81,14 +81,14 @@
         "description":
           "Projecte final del curs de Symfony (210h) al centre CIFO La Violeta. Consisteix en una pàgina web que recopila informació tècnica de diverses pel·lícules en la seva fitxa, com ara el director, el repartiment, la sinopsi, la puntuació i altres detalls rellevants. És un projecte que demostra les habilitats i coneixements adquirits per l'estudiant en el desenvolupament web utilitzant el framework Symfony.",
         "technologies": "Symfony, MySQL i Twig",
-        "webLink": "https://carlavelasco.com/react-filter-movies/",
-        "githubLink": "https://github.com/carlavelasco15/react-filter-movies",
+        "webLink": "http://carlavelasco.alwaysdata.net/symfoplaces/",
+        "githubLink": "https://github.com/carlavelasco15/symfony-symfoplaces",
         "tags": ["php", "symfony"]
 
       },
       {
         "title": "CIFO Sabadell (Vallès) - Cifopop",
-        "img": "./img/Cifo_Sabadell.jpg",
+        "img": "./img/cifo-sabadell.jpg",
         "description":
           "Projecte desenvolupat durant el curs de Laravel (210h) al centre CIFO Sabadell (Vallès) per consolidar el contingut del curs. Un lloc web per a la compra i venda de productes de segona mà entre particulars. Un usuari pot publicar un producte a un preu específic i altres usuaris poden fer ofertes sobre el producte. El propietari del producte pot acceptar o rebutjar les ofertes.",
         "webLink": "https://github.com/carlavelasco15/laravel-cifopop",

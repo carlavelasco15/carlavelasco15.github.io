@@ -3,7 +3,7 @@ import Project from "./components/Project";
 import Filter from "./components/Filter";
 import { useTranslation } from "react-i18next";
 
-const ProjectsSection = ({currentLanguage}) => {
+const ProjectsSection = ({ currentLanguage }) => {
   const [t, i18n, ready] = useTranslation("global");
   const [filtered, setFiltered] = useState([]);
   const [projects, setProjects] = useState([]);
@@ -24,7 +24,6 @@ const ProjectsSection = ({currentLanguage}) => {
     }
   }, [currentLanguage]);
 
-
   return (
     <section className="section projects" id="projects">
       <div className="section__wrapper">
@@ -37,7 +36,8 @@ const ProjectsSection = ({currentLanguage}) => {
                 setFiltered={setFiltered}
                 activeTechnology={activeTechnology}
                 setActiveTechnology={setActiveTechnology}
-                />
+                currentLanguage={currentLanguage}
+              />
               <div>
                 {filtered.map((project, index) => {
                   return <Project key={index} {...project} />;

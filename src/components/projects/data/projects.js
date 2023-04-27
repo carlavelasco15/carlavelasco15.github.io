@@ -22,7 +22,7 @@ export const projects = [
     },
     {
       title: "CIFO Sabadell (Vallès) - Larabikes",
-      img: "./img/Cifo_Sabadell.jpg",
+      img: "./img/cifo-sabadell.jpg",
       description:
         "Proyecto final del curso de Laravel (210h) en el centro CIFO Sabadell (Vallès). Página web para la compra y venta de motos entre particulares. La plataforma incluye un frontend desarrollado en Blade de Laravel, un sistema de autorización y autenticación de usuarios, y una API para la gestión de las motos. Permite a los usuarios subir, gestionar y eliminar motos, así como hacer ofertas a otras motos publicadas.",
       technologies: "Laravel, MySQL, Blade y API Rest",

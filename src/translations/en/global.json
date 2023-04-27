@@ -47,7 +47,7 @@
       },
       {
         "title": "CIFO Sabadell (Vallès) - Larabikes",
-        "img": "./img/Cifo_Sabadell.jpg",
+        "img": "./img/cifo-sabadell.jpg",
         "description": "Final project of the Laravel course (210h) at CIFO Sabadell (Vallès). Website for buying and selling motorcycles between individuals. The platform includes a frontend developed in Laravel's Blade, a user authorization and authentication system, and an API for managing motorcycles. It allows users to upload, manage, and delete motorcycles, as well as make offers to other published motorcycles.",
         "technologies": "Laravel, MySQL, Blade, and Rest API",
         "webLink": "http://larabikes.carlavelasco.com",
@@ -70,7 +70,7 @@
         "description":
           "Final project of the Symfony course (210h) at CIFO La Violeta center. It consists of a web page that collects technical information from several movies in its file, such as director, cast, synopsis, score and other relevant details. It is a project that demonstrates the skills and knowledge acquired by the student in web development using the Symfony framework.",
         "technologies": "Symfony, MySQL and Twig",
-        "webLink": "https://github.com/carlavelasco15/symfony-symfofilms",
+        "webLink": "https://carlavelasco.cat/symfofilms/public/",
         "githubLink": "https://github.com/carlavelasco15/symfony-symfofilms",
         "tags": ["php", "symfony"]
       },
@@ -80,13 +80,13 @@
         "description":
           "The project was developed during the Symfony course (210h) at CIFO La Violeta center, aimed at solidifying the course content. It involved creating a webpage where users could share their favorite places, along with accompanying photographs and other relevant details. In addition, a commenting space was enabled for other users to leave their impressions about the shared place. This project allowed students to apply the knowledge acquired during the course and improve their web development skills using Symfony.",
         "technologies": "Symfony, MySQL and Twig",
-        "webLink": "https://github.com/carlavelasco15/symfony-symfoplaces",
+        "webLink": "http://carlavelasco.alwaysdata.net/symfoplaces/",
         "githubLink": "https://github.com/carlavelasco15/symfony-symfoplaces",
         "tags": ["php", "symfony"]
       },
       {
         "title": "CIFO Sabadell (Vallès) - Cifopop",
-        "img": "./img/Cifo_Sabadell.jpg",
+        "img": "./img/cifo-sabadell.jpg",
         "description":
           "Project developed during the Laravel course (210h) at CIFO Sabadell (Vallès) to solidify the course content. A website for buying and selling second-hand products between individuals. A user can post a product at a specific price and other users can make offers on the product. The owner of the product can accept or reject the offers.",
         "technologies": "Laravel, MySQL, Blade y API Rest",

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-function Filter({setActiveTechnology, activeTechnology, setFiltered, projects}) {
+function Filter({setActiveTechnology, activeTechnology, setFiltered, projects, currentLanguage}) {
     const [t, i18n] = useTranslation("global");
 
     useEffect(() => {
@@ -11,7 +11,10 @@ function Filter({setActiveTechnology, activeTechnology, setFiltered, projects}) 
         }
         const filtered = projects.filter((project) => project.tags.includes(activeTechnology));
         setFiltered(filtered);
-    }, [activeTechnology]);
+        console.log("filtrando")
+    }, [activeTechnology, projects]);
+
+    console.log(currentLanguage)
     
     return (
         <div className="filter-container">
