@@ -11,10 +11,8 @@ function Filter({setActiveTechnology, activeTechnology, setFiltered, projects, c
         }
         const filtered = projects.filter((project) => project.tags.includes(activeTechnology));
         setFiltered(filtered);
-        console.log("filtrando")
     }, [activeTechnology, projects]);
 
-    console.log(currentLanguage)
     
     return (
         <div className="filter-container">
