@@ -32,7 +32,7 @@
         "img": "./img/prescripcio.png",
         "description": "Das System ermöglicht es Mitarbeitern des CAP Roquetes (Barcelona), Patienten für von lokalen Einrichtungen organisierte Aktivitäten zu registrieren, physische Reservierungstickets zu generieren und Patienten zu verfolgen, um ihre Behandlung zu optimieren und ihre Lebensqualität zu verbessern. Die Anwendung ermöglicht es den verantwortlichen Einrichtungen, ihre eigenen Aktivitäten zu verwalten und Anwesenheit und Leistung der Patienten zu verfolgen.",
         "technologies": "Symfony, MySQL, JavaScript und Twig",
-        "webLink": "http://prescripcio.carlavelasco.com",
+        "webLink": "https://carlavelasco7e4.alwaysdata.net/prescripcio-social/",
         "githubLink": "https://github.com/carlavelasco15/symfony-preinscripcio-social-roquetes",
         "tags": ["php", "symfony"]
       },
@@ -50,7 +50,7 @@
         "img": "./img/cifo-sabadell.jpg",
         "description": "Abschlussprojekt des Laravel-Kurses (210 Stunden) an der CIFO Sabadell (Vallès). Website zum Kauf und Verkauf von Motorrädern zwischen Privatpersonen. Die Plattform umfasst ein Frontend, das in Laravels Blade entwickelt wurde, ein Benutzerberechtigungs- und Authentifizierungssystem sowie eine API zur Verwaltung von Motorrädern. Es ermöglicht Benutzern, Motorräder hochzuladen, zu verwalten und zu löschen sowie Angebote für andere veröffentlichte Motorräder zu machen.",
         "technologies": "Laravel, MySQL, Blade und Rest API",
-        "webLink": "http://larabikes.carlavelasco.com",
+        "webLink": "https://carlavelasco7e4.alwaysdata.net/larabikes/",
         "githubLink": "https://github.com/carlavelasco15/laravel-larabikes",
         "tags": ["php", "laravel", "api"]
       },
