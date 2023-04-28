@@ -70,7 +70,7 @@
             },
             {
               "title": "CIFO La Violeta - Symfofilms",
-              "img": "./img/cifo-violeta.jpg",
+              "img": "./img/symfofilms.png",
               "description":
                 "Proyecto final del curso de Symfony (210h) en el centro CIFO La Violeta. Consiste en una página web que recopila información técnica de varias películas en su ficha, como director, reparto, sinopsis, puntuación y otros detalles relevantes. Es un proyecto que demuestra las habilidades y conocimientos adquiridos por el estudiante en el desarrollo web utilizando el framework Symfony. escribe esto otra vez",
                 "technologies": "Symfony, MySQL y Twig",

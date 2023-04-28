@@ -65,7 +65,7 @@
       },
       {
         "title": "CIFO La Violeta - Symfofilms",
-        "img": "./img/cifo-violeta.jpg",
+        "img": "./img/symfofilms.png",
 
         "description":
           "Projecte final del curs de Symfony (210h) al centre CIFO La Violeta. Consisteix en una pàgina web que recopila informació tècnica de diverses pel·lícules en la seva fitxa, com ara el director, el repartiment, la sinopsi, la puntuació i altres detalls rellevants. És un projecte que demostra les habilitats i coneixements adquirits per l'estudiant en el desenvolupament web utilitzant el framework Symfony.",

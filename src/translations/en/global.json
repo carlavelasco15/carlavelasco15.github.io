@@ -66,7 +66,7 @@
       },
       {
         "title": "CIFO La Violeta - Symfofilms",
-        "img": "./img/cifo-violeta.jpg",
+        "img": "./img/symfofilms.png",
         "description":
           "Final project of the Symfony course (210h) at CIFO La Violeta center. It consists of a web page that collects technical information from several movies in its file, such as director, cast, synopsis, score and other relevant details. It is a project that demonstrates the skills and knowledge acquired by the student in web development using the Symfony framework.",
         "technologies": "Symfony, MySQL and Twig",

@@ -65,7 +65,7 @@
       },
       {
         "title": "CIFO La Violeta - Symfofilms",
-        "img": "./img/cifo-violeta.jpg",
+        "img": "./img/symfofilms.png",
         "description":
           "Abschlussprojekt des Symfony-Kurses (210 Stunden) am CIFO La Violeta-Zentrum. Es besteht aus einer Webseite, die technische Informationen von mehreren Filmen in ihrer Karteikarte sammelt, wie Regisseur, Besetzung, Handlungszusammenfassung, Bewertung und anderen relevanten Details. Es ist ein Projekt, das die Fähigkeiten und Kenntnisse des Schülers im Web-Entwicklung unter Verwendung des Symfony-Frameworks demonstriert.",
           "technologies": "Symfony, MySQL und Twig",
