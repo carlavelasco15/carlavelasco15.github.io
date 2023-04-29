@@ -94,7 +94,7 @@
               "description":
                 "Proyecto que se hizo durante el curso de Laravel (210h) en el centro CIFO Sabadell (Vallès) para asentar el contenido del curso.  Página web para la compra y venta de productos de segunda mano entre particulares. Un usuario puede colgar un producto a un precio concreto y los otros usuarios pueden ofertar sobre dicho producto. El usuario propietario puede aceptar o rechazar las ofertas. reescribeme esto en español",
               "technologies": "Laravel, MySQL y Blade",
-              "webLink": "https://github.com/carlavelasco15/laravel-cifopop",
+              "webLink": "https://carlavelasco.cat/cifopop/public/",
               "githubLink": "https://github.com/carlavelasco15/laravel-cifopop",
               "tags": ["php", "laravel"]
             }
