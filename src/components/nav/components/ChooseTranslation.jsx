@@ -23,12 +23,6 @@ export const ChooseTranslation = ({currentLanguage, handleLanguageChange}) => {
           EN
         </a>
       </li>
-
-      <li className="nav__item">
-        <a  className={`nav__link nav__link--language ${currentLanguage === "de" ? "active" : ""}`} onClick={() => handleLanguageChange("de")}>
-          DE
-        </a>
-      </li>
     </ul>
   );
 };

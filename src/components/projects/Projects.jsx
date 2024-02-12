@@ -7,7 +7,7 @@ const ProjectsSection = ({ currentLanguage }) => {
   const [t, i18n, ready] = useTranslation("global");
   const [filtered, setFiltered] = useState([]);
   const [projects, setProjects] = useState([]);
-  const [activeTechnology, setActiveTechnology] = useState("");
+  const [activeTechnology, setActiveTechnology] = useState("symfony");
 
   useEffect(() => {
     if (!ready) return "loading translations...";

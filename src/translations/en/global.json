@@ -26,14 +26,15 @@
     "title": "PROJECTS",
     "technologies": "Technologies",
     "all": "All",
-    "all-projects": [
+    "all-projects": [    
       {
-        "title": "Pla Comunitari Roquetes - Social prescription",
-        "img": "./img/prescripcio.png",
-        "description": "The system allows workers from CAP Roquetes (Barcelona) to register patients for activities organized by local entities, generate physical reservation tickets, and track patients to optimize their treatment and improve their quality of life. The application allows the responsible entities to manage their own activities and track attendance and patient performance.",
-        "technologies": "Symfony, MySQL, JavaScript, and Twig",
-        "webLink": "https://carlavelasco7e4.alwaysdata.net/prescripcio-social/",
-        "githubLink": "https://github.com/carlavelasco15/symfony-preinscripcio-social-roquetes",
+        "title": "CIFO La Violeta - Symfofilms",
+        "img": "./img/symfofilms.png",
+        "description":
+          "Final project of the Symfony course (210h) at CIFO La Violeta center. It consists of a web page that collects technical information from several movies in its file, such as director, cast, synopsis, score and other relevant details. It is a project that demonstrates the skills and knowledge acquired by the student in web development using the Symfony framework.",
+        "technologies": "Symfony, MySQL and Twig",
+        "webLink": "https://carlavelasco.alwaysdata.net/symfofilms/",
+        "githubLink": "https://github.com/carlavelasco15/symfony-symfofilms",
         "tags": ["php", "symfony"]
       },
       {
@@ -65,23 +66,12 @@
         "tags": ["react", "javascript", "api"]
       },
       {
-        "title": "CIFO La Violeta - Symfofilms",
-        "img": "./img/symfofilms.png",
-        "description":
-          "Final project of the Symfony course (210h) at CIFO La Violeta center. It consists of a web page that collects technical information from several movies in its file, such as director, cast, synopsis, score and other relevant details. It is a project that demonstrates the skills and knowledge acquired by the student in web development using the Symfony framework.",
-        "technologies": "Symfony, MySQL and Twig",
-        "webLink": "https://carlavelasco.cat/symfofilms/public/",
-        "githubLink": "https://github.com/carlavelasco15/symfony-symfofilms",
-        "tags": ["php", "symfony"]
-      },
-      {
-        "title": "CIFO La Violeta - Symfoplaces",
-        "img": "./img/cifo-violeta.jpg",
-        "description":
-          "The project was developed during the Symfony course (210h) at CIFO La Violeta center, aimed at solidifying the course content. It involved creating a webpage where users could share their favorite places, along with accompanying photographs and other relevant details. In addition, a commenting space was enabled for other users to leave their impressions about the shared place. This project allowed students to apply the knowledge acquired during the course and improve their web development skills using Symfony.",
-        "technologies": "Symfony, MySQL and Twig",
-        "webLink": "http://carlavelasco.alwaysdata.net/symfoplaces/",
-        "githubLink": "https://github.com/carlavelasco15/symfony-symfoplaces",
+        "title": "Pla Comunitari Roquetes - Social prescription",
+        "img": "./img/prescripcio.png",
+        "description": "The system allows workers from CAP Roquetes (Barcelona) to register patients for activities organized by local entities, generate physical reservation tickets, and track patients to optimize their treatment and improve their quality of life. The application allows the responsible entities to manage their own activities and track attendance and patient performance.",
+        "technologies": "Symfony, MySQL, JavaScript, and Twig",
+        "webLink": "https://carlavelasco7e4.alwaysdata.net/prescripcio-social/",
+        "githubLink": "https://github.com/carlavelasco15/symfony-preinscripcio-social-roquetes",
         "tags": ["php", "symfony"]
       },
       {
@@ -90,10 +80,10 @@
         "description":
           "Project developed during the Laravel course (210h) at CIFO Sabadell (Vallès) to solidify the course content. A website for buying and selling second-hand products between individuals. A user can post a product at a specific price and other users can make offers on the product. The owner of the product can accept or reject the offers.",
         "technologies": "Laravel, MySQL and Blade",
-        "webLink": "https://carlavelasco.cat/cifopop/public/",
+        "webLink": "https://carlavelasco7e4.alwaysdata.net/cifopop/",
         "githubLink": "https://github.com/carlavelasco15/laravel-cifopop",
         "tags": ["php", "laravel"]
-      }
+      }      
     ]
   },
   "footer": {

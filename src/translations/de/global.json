@@ -64,34 +64,24 @@
         "tags": ["react", "javascript", "api"]
       },
       {
-        "title": "CIFO La Violeta - Symfofilms",
-        "img": "./img/symfofilms.png",
-        "description":
-          "Abschlussprojekt des Symfony-Kurses (210 Stunden) am CIFO La Violeta-Zentrum. Es besteht aus einer Webseite, die technische Informationen von mehreren Filmen in ihrer Karteikarte sammelt, wie Regisseur, Besetzung, Handlungszusammenfassung, Bewertung und anderen relevanten Details. Es ist ein Projekt, das die Fähigkeiten und Kenntnisse des Schülers im Web-Entwicklung unter Verwendung des Symfony-Frameworks demonstriert.",
-          "technologies": "Symfony, MySQL und Twig",
-          "webLink": "https://carlavelasco.cat/symfofilms/public/",
-          "githubLink": "https://github.com/carlavelasco15/symfony-symfofilms",
-        "tags": ["php", "symfony"]
-      },
-      {
-        "title": "CIFO La Violeta - Symfoplaces",
-        "img": "./img/cifo-violeta.jpg",
-        "description":
-          "Das Projekt wurde während des Symfony-Kurses (210h) im CIFO La Violeta Center entwickelt, um den Kursinhalt zu festigen. Es beinhaltete die Erstellung einer Webseite, auf der Benutzer ihre Lieblingsorte teilen konnten, zusammen mit begleitenden Fotografien und anderen relevanten Details. Zusätzlich wurde ein Kommentarbereich aktiviert, in dem andere Benutzer ihre Eindrücke über den geteilten Ort hinterlassen konnten. Dieses Projekt ermöglichte es den Studierenden, das im Kurs erworbene Wissen anzuwenden und ihre Webentwicklungsfähigkeiten unter Verwendung von Symfony zu verbessern.",
-          "technologies": "Symfony, MySQL und Twig",
-          "webLink": "http://carlavelasco.alwaysdata.net/symfoplaces/",
-          "githubLink": "https://github.com/carlavelasco15/symfony-symfoplaces",
-        "tags": ["php", "symfony"]
-      },
-      {
         "title": "CIFO Sabadell (Vallès) - Cifopop",
         "img": "./img/cifo-sabadell.jpg",
         "description":
           "Projekt, das während des Laravel-Kurses (210h) im CIFO Sabadell (Vallès) entwickelt wurde, um den Kursinhalt zu festigen. Eine Website zum Kauf und Verkauf von gebrauchten Produkten zwischen Einzelpersonen. Ein Benutzer kann ein Produkt zu einem bestimmten Preis veröffentlichen und andere Benutzer können Angebote für das Produkt abgeben. Der Eigentümer des Produkts kann die Angebote annehmen oder ablehnen.",
           "technologies": "Laravel, MySQL und Blade",
-        "webLink": "https://carlavelasco.cat/cifopop/public/",
+        "webLink": "https://carlavelasco7e4.alwaysdata.net/cifopop/",
         "githubLink": "https://github.com/carlavelasco15/laravel-cifopop",
         "tags": ["php", "laravel"]
+      },
+      {
+        "title": "CIFO La Violeta - Symfofilms",
+        "img": "./img/symfofilms.png",
+        "description":
+          "Abschlussprojekt des Symfony-Kurses (210 Stunden) am CIFO La Violeta-Zentrum. Es besteht aus einer Webseite, die technische Informationen von mehreren Filmen in ihrer Karteikarte sammelt, wie Regisseur, Besetzung, Handlungszusammenfassung, Bewertung und anderen relevanten Details. Es ist ein Projekt, das die Fähigkeiten und Kenntnisse des Schülers im Web-Entwicklung unter Verwendung des Symfony-Frameworks demonstriert.",
+          "technologies": "Symfony, MySQL und Twig",
+          "webLink": "https://carlavelasco.alwaysdata.net/symfofilms/",
+          "githubLink": "https://github.com/carlavelasco15/symfony-symfofilms",
+        "tags": ["php", "symfony"]
       }
     ]
   },

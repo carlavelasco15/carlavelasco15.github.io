@@ -28,13 +28,16 @@
     "all": "Tots",
     "all-projects": [
       {
-        "title": "Pla Comunitari Roquetes - Prescripció social",
-        "img": "./img/prescripcio.png",
-        "description": "El sistema permet als treballadors del CAP Roquetes (Barcelona) registrar pacients per a activitats organitzades per entitats locals, generar tiquets de reserva físics i fer un seguiment dels pacients per optimitzar el seu tractament i millorar la seva qualitat de vida. L'aplicació permet a les entitats responsables gestionar les seves pròpies activitats i fer un seguiment de l'assistència i el rendiment dels pacients.",
-        "technologies": "Symfony, MySQL, JavaScript i Twig",
-        "webLink": "https://carlavelasco7e4.alwaysdata.net/prescripcio-social/",
-        "githubLink": "https://github.com/carlavelasco15/symfony-preinscripcio-social-roquetes",
+        "title": "CIFO La Violeta - Symfofilms",
+        "img": "./img/symfofilms.png",
+  
+        "description":
+          "Projecte final del curs de Symfony (210h) al centre CIFO La Violeta. Consisteix en una pàgina web que recopila informació tècnica de diverses pel·lícules en la seva fitxa, com ara el director, el repartiment, la sinopsi, la puntuació i altres detalls rellevants. És un projecte que demostra les habilitats i coneixements adquirits per l'estudiant en el desenvolupament web utilitzant el framework Symfony.",
+          "technologies": "Symfony, MySQL i Twig",
+        "webLink": "https://carlavelasco.alwaysdata.net/symfofilms/",
+        "githubLink": "https://github.com/carlavelasco15/symfony-symfofilms",
         "tags": ["php", "symfony"]
+  
       },
       {
         "title": "Llista de tasques",
@@ -64,27 +67,13 @@
         "tags": ["react", "javascript", "api"]
       },
       {
-        "title": "CIFO La Violeta - Symfofilms",
-        "img": "./img/symfofilms.png",
-
-        "description":
-          "Projecte final del curs de Symfony (210h) al centre CIFO La Violeta. Consisteix en una pàgina web que recopila informació tècnica de diverses pel·lícules en la seva fitxa, com ara el director, el repartiment, la sinopsi, la puntuació i altres detalls rellevants. És un projecte que demostra les habilitats i coneixements adquirits per l'estudiant en el desenvolupament web utilitzant el framework Symfony.",
-        "technologies": "Symfony, MySQL i Twig",
-        "webLink": "https://carlavelasco.cat/symfofilms/public/",
-        "githubLink": "https://github.com/carlavelasco15/symfony-symfofilms",
+        "title": "Pla Comunitari Roquetes - Prescripció social",
+        "img": "./img/prescripcio.png",
+        "description": "El sistema permet als treballadors del CAP Roquetes (Barcelona) registrar pacients per a activitats organitzades per entitats locals, generar tiquets de reserva físics i fer un seguiment dels pacients per optimitzar el seu tractament i millorar la seva qualitat de vida. L'aplicació permet a les entitats responsables gestionar les seves pròpies activitats i fer un seguiment de l'assistència i el rendiment dels pacients.",
+        "technologies": "Symfony, MySQL, JavaScript i Twig",
+        "webLink": "https://carlavelasco7e4.alwaysdata.net/prescripcio-social/",
+        "githubLink": "https://github.com/carlavelasco15/symfony-preinscripcio-social-roquetes",
         "tags": ["php", "symfony"]
-
-      },
-      {
-        "title": "CIFO La Violeta - Symfoplaces",
-        "img": "./img/cifo-violeta.jpg",
-        "description":
-          "Projecte final del curs de Symfony (210h) al centre CIFO La Violeta. Consisteix en una pàgina web que recopila informació tècnica de diverses pel·lícules en la seva fitxa, com ara el director, el repartiment, la sinopsi, la puntuació i altres detalls rellevants. És un projecte que demostra les habilitats i coneixements adquirits per l'estudiant en el desenvolupament web utilitzant el framework Symfony.",
-        "technologies": "Symfony, MySQL i Twig",
-        "webLink": "http://carlavelasco.alwaysdata.net/symfoplaces/",
-        "githubLink": "https://github.com/carlavelasco15/symfony-symfoplaces",
-        "tags": ["php", "symfony"]
-
       },
       {
         "title": "CIFO Sabadell (Vallès) - Cifopop",
@@ -92,7 +81,7 @@
         "description":
           "Projecte desenvolupat durant el curs de Laravel (210h) al centre CIFO Sabadell (Vallès) per consolidar el contingut del curs. Un lloc web per a la compra i venda de productes de segona mà entre particulars. Un usuari pot publicar un producte a un preu específic i altres usuaris poden fer ofertes sobre el producte. El propietari del producte pot acceptar o rebutjar les ofertes.",
         "technologies": "Laravel, MySQL i Blade",
-        "webLink": "https://carlavelasco.cat/cifopop/public/",
+        "webLink": "https://carlavelasco7e4.alwaysdata.net/cifopop/",
         "githubLink": "https://github.com/carlavelasco15/laravel-cifopop",
         "tags": ["php", "laravel"]
       }

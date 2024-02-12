@@ -296,7 +296,7 @@ header.active .nav__t-line {
 }
   
 .hero__background {
-    background-image: url(../img/code-background.jpg);
+    background-image: url(../img/code-background.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
